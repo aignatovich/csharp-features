@@ -6,7 +6,7 @@ namespace NullableReferenceTypes
     {
         static void Main(string[] args)
         {
-            string s = null;
+            string? s = null;
 
             // Will not raise Null ref exception
             Console.WriteLine(s[0]);
